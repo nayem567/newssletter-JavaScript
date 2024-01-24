@@ -16,7 +16,7 @@ button{
 }
 
 main{
-    height: 100vh;
+    height: 90vh;
 }
 
 #subscribe:active, #dismiss:active{
@@ -24,7 +24,11 @@ main{
     border: 0;
 }
 
-
+footer{
+    background-color: hsl(234, 29%, 20%) ;
+    color: #fff;
+    height: 10vh;
+}
 .success_style{
     max-width: 360px;
     position: absolute;
@@ -44,6 +48,7 @@ main{
         font-size: 2.5rem;
         margin: 20px 0;
     }
+  
 }
 
 
