@@ -6,6 +6,9 @@ h1{
    color:hsl(234, 29%, 20%);
 }
 
+body{
+    overflow: hidden;
+}
 
 .container{
     max-width: 912px;
@@ -27,7 +30,7 @@ main{
 footer{
     background-color: hsl(234, 29%, 20%) ;
     color: #fff;
-    height: 10vh;
+    height: 11vh;
 }
 .success_style{
     max-width: 360px;
@@ -41,12 +44,18 @@ footer{
 
    /*  mobile-specific styles */
    @media(max-width: 512px) {
+    body{
+        overflow: unset;
+    }
     main{
         height: unset;
     }
     .title{
         font-size: 2.5rem;
         margin: 20px 0;
+    }
+    .ftr{
+        padding-top: 10px;
     }
   
 }
