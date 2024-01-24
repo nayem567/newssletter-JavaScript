@@ -1,0 +1,49 @@
+
+.blue_bg{
+    background-color: hsl(234, 29%, 20%);
+}
+h1{
+   color:hsl(234, 29%, 20%);
+}
+
+
+.container{
+    max-width: 912px;
+}
+
+button{
+    background-color: hsl(234, 29%, 20%) !important;
+}
+
+main{
+    height: 100vh;
+}
+
+#subscribe:active, #dismiss:active{
+    background-color:hsl(4, 100%, 67%)!important; 
+    border: 0;
+}
+
+
+.success_style{
+    max-width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(235, 18%, 26%);
+}
+
+   /*  mobile-specific styles */
+   @media(max-width: 512px) {
+    main{
+        height: unset;
+    }
+    .title{
+        font-size: 2.5rem;
+        margin: 20px 0;
+    }
+}
+
+
